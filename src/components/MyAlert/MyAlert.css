@@ -1,0 +1,11 @@
+.MuiAlert-root {
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.MuiAlert-root .MuiAlert-message {
+  font-size: 48px;
+}

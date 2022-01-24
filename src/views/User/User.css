@@ -1,0 +1,119 @@
+.banner {
+  width: 100%;
+  height: 1064px;
+  background-image: url(../../assets/images/user/bj_1.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.banner .usertxt {
+  margin-top: 126px;
+  margin-left: 51px;
+  font-size: 42px;
+  font-family: NotoSansHans;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+.banner img {
+  width: 230px;
+  height: 230px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  margin: 198px auto 0;
+  display: block;
+}
+.banner h3 {
+  font-size: 50px;
+  font-family: NotoSansHans;
+  font-weight: 400;
+  color: #333333;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 80px;
+}
+.banner ul {
+  display: flex;
+  justify-content: space-around;
+}
+.banner ul li {
+  text-align: center;
+}
+.banner ul li img {
+  margin-top: 0;
+  border-radius: 0;
+}
+.banner ul li span {
+  display: block;
+  font-size: 42px;
+  font-family: NotoSansHans;
+  font-weight: 500;
+  color: #333333;
+  margin: 21px 0;
+  line-height: 42px;
+}
+.banner ul li h4 {
+  font-size: 34px;
+  font-family: NotoSansHans;
+  font-weight: 400;
+  color: #999999;
+  line-height: 30px;
+}
+.banner ul:nth-child(1) img {
+  width: 102px;
+  height: 98px;
+}
+.banner ul:nth-child(2) img {
+  width: 90px;
+  height: 98px;
+}
+.banner ul:nth-child(3) img {
+  width: 86px;
+  height: 98px;
+}
+.banner ul:nth-child(4) img {
+  width: 86px;
+  height: 98px;
+}
+ul li {
+  border-bottom: 1px solid #f0f0f0;
+  background: #FFFFFF;
+}
+ul li .lastspan {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  height: 140px;
+  align-items: center;
+  margin: 0 50px;
+}
+ul li .lastspan .txt {
+  flex: 1;
+  font-size: 44px;
+  font-family: NotoSansHans;
+  font-weight: 400;
+  color: #333333;
+  line-height: 30px;
+}
+ul li .lastspan .jianto {
+  width: 18px;
+  height: 32px;
+}
+ul li .lastspan .anticon {
+  color: #898A95;
+}
+ul:nth-child(1) img {
+  width: 45px;
+  margin-right: 21px;
+}
+ul:nth-child(2) img {
+  width: 41px;
+  margin-right: 24px;
+}
+ul:nth-child(3) img {
+  width: 41px;
+  margin-right: 23px;
+}

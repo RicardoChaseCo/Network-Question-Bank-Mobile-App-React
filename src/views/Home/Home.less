@@ -1,0 +1,139 @@
+@blue: #2E57FF;
+
+.home {
+    width: 100%;
+    height: 100%;
+    padding: 71px 51px;
+    box-sizing: border-box;
+    // padding-bottom: 65px;
+    .title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 78px;
+
+        .subject {
+            font-size: 60px;
+            font-weight: bold;
+            color: #333333;
+            line-height: 30px;
+            height: 51px;
+        }
+
+        .testSubject {
+            margin-right: 40px;
+            font-size: 36px;
+            font-weight: 500;
+            color: #2E57FF;
+            line-height: 30px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                top: 0;
+                right: -35px;
+                content: '';
+                border-top: 15px solid transparent;
+                border-left: 20px solid @blue;
+                border-bottom: 15px solid transparent;
+
+            }
+        }
+    }
+
+    .studyKu {
+        box-sizing: border-box;
+        width: 1025px;
+        height: 600px;
+        background: #2E57FF;
+        box-shadow: 0px 39px 87px 0px rgba(46, 87, 255, 0.2);
+        border-radius: 80px;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .welcome {
+            box-sizing: border-box;
+            font-size: 32px;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+
+        .down {
+            display: flex;
+            align-items: flex-end;
+
+            img {
+                width: 402px;
+            }
+
+            .right {
+                flex: 1;
+                margin-left: 80px;
+                font-size: 40px;
+
+                .top {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    color: #fff;
+                    margin-bottom: 60px;
+                }
+
+                .down {
+                    display: flex;
+                    justify-content: space-around;
+
+                    .err,
+                    .shoucang {
+                        div {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            line-height: 50px;
+
+                            &:first-child {
+                                font-size: 52px;
+                                font-weight: 700;
+                                color: gold;
+                            }
+
+                            &:nth-child(2) {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .category {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+
+        img {
+            width: 216px;
+        }
+    }
+
+    .tiku {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 100px;
+        color: #333333;
+        .subject_title {
+            font-size: 60px;
+            font-weight: bold;
+            margin-right: 45px;
+        }
+
+        span {
+            font-size: 36px;
+            font-weight: 500; 
+            color: #666;
+        }
+    }
+
+}

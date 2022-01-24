@@ -1,0 +1,11 @@
+.goback {
+  width: 1125px;
+  height: 120px;
+  background: #2e57ff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 120px;
+}

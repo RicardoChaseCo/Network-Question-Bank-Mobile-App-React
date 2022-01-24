@@ -1,0 +1,58 @@
+.list {
+  width: 1025px;
+  margin: auto;
+  margin-top: 58px;
+  li {
+    background: #fff;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 50px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    img {
+      width: 70px;
+      height: 70px;
+      margin-right: 39px;
+    }
+    section {
+      flex: 1;
+      .list_title,
+      .list_desc {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .list_title {
+        font-size: 48px;
+        margin-bottom: 24px;
+        font-weight: 500;
+        color: #333333;
+      }
+      .list_desc {
+        font-size: 36px;
+        color: #666666;
+        margin-bottom: 21px;
+      }
+      .MuiLinearProgress-colorPrimary {
+        background: #eeeeee;
+        border-radius: 15px;
+        height: 15px;
+      }
+      .MuiLinearProgress-barColorPrimary {
+        background: #2e57ff;
+      }
+    }
+    .btn {
+      width: 200px;
+      height: 96px;
+      background: #2e57ff;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 96px;
+      color: #fff;
+      margin-left: 115px;
+    }
+  }
+}

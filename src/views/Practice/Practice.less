@@ -1,0 +1,136 @@
+@import "http://at.alicdn.com/t/font_2390471_jvvzeh530r.css";
+.Practice {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  overflow: hidden;
+  .top {
+    padding: 0 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    .MuiSvgIcon-root {
+      width: 50px;
+      height: 50px;
+      margin-right: 14px;
+    }
+    .top_index {
+      b {
+        font-weight: bold;
+        color: #2e57ff;
+      }
+    }
+  }
+  .timu {
+    // 占位脱离
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: left 0.5s linear;
+    .timu_li {
+      float: left;
+      width: 100vw;
+      padding: 60px 50px 0;
+      box-sizing: border-box;
+      border-bottom: 0;
+    }
+  }
+  .timu_title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    span {
+      width: 80px;
+      height: 50px;
+      background: #2e57ff;
+      font-size: 32px;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+      margin-right: 20px;
+    }
+    p {
+      flex: 1;
+      font-size: 42px;
+      color: #333333;
+      line-height: 56px;
+    }
+  }
+  .timu_textarea {
+    width: 100%;
+    height: 600px;
+    padding: 68px 71px;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 39px;
+    background: #f0f0f0;
+    &::-webkit-input-placeholder {
+      font-size: 38px;
+      color: #999999;
+    }
+  }
+  .timu_options {
+    li {
+      width: 1025px;
+      background: #f0f0f0;
+      padding: 50px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      .iconfont{
+        padding-top: 10px;
+        &.icon-normal{
+          color: #333;
+        }
+        &.icon-danxuanxiangxuanzhong{
+          color: #2E57FF;
+        }
+      }
+      span{
+        flex: 1;
+        margin-left: 36px;
+      }
+    }
+  }
+  .timu_tips {
+    font-size: 30px;
+    color: #999999;
+    margin-bottom: 60px;
+  }
+  .timu_submit {
+    width: 250px;
+    height: 96px;
+    background: #ffffff;
+    border: 2px solid #2e57ff;
+    font-size: 40px;
+    color: #2e57ff;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 96px;
+    margin-bottom: 69px;
+  }
+  .timu_answer {
+    display: flex;
+    margin-bottom: 69px;
+    justify-content: space-between;
+    span {
+      font-size: 42px;
+      color: #333333;
+      margin-right: 40px;
+      width: 14%;
+    }
+    p {
+      flex: 1;
+      color: #2e57ff;
+      line-height: 50px;
+    }
+  }
+  .timu_analysis {
+    p {
+      color: #333;
+    }
+  }
+}

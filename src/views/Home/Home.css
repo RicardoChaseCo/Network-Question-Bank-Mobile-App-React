@@ -1,0 +1,117 @@
+.home {
+  width: 100%;
+  height: 100%;
+  padding: 71px 51px;
+  box-sizing: border-box;
+}
+.home .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 78px;
+}
+.home .title .subject {
+  font-size: 60px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 30px;
+  height: 51px;
+}
+.home .title .testSubject {
+  margin-right: 40px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #2E57FF;
+  line-height: 30px;
+  position: relative;
+}
+.home .title .testSubject::after {
+  position: absolute;
+  top: 0;
+  right: -35px;
+  content: '';
+  border-top: 15px solid transparent;
+  border-left: 20px solid #2E57FF;
+  border-bottom: 15px solid transparent;
+}
+.home .studyKu {
+  box-sizing: border-box;
+  width: 1025px;
+  height: 600px;
+  background: #2E57FF;
+  box-shadow: 0px 39px 87px 0px rgba(46, 87, 255, 0.2);
+  border-radius: 80px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home .studyKu .welcome {
+  box-sizing: border-box;
+  font-size: 32px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.home .studyKu .down {
+  display: flex;
+  align-items: flex-end;
+}
+.home .studyKu .down img {
+  width: 402px;
+}
+.home .studyKu .down .right {
+  flex: 1;
+  margin-left: 80px;
+  font-size: 40px;
+}
+.home .studyKu .down .right .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.home .studyKu .down .right .down {
+  display: flex;
+  justify-content: space-around;
+}
+.home .studyKu .down .right .down .err div,
+.home .studyKu .down .right .down .shoucang div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 50px;
+}
+.home .studyKu .down .right .down .err div:first-child,
+.home .studyKu .down .right .down .shoucang div:first-child {
+  font-size: 52px;
+  font-weight: 700;
+  color: gold;
+}
+.home .studyKu .down .right .down .err div:nth-child(2),
+.home .studyKu .down .right .down .shoucang div:nth-child(2) {
+  color: #fff;
+}
+.home .category {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.home .category img {
+  width: 216px;
+}
+.home .tiku {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+  color: #333333;
+}
+.home .tiku .subject_title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-right: 45px;
+}
+.home .tiku span {
+  font-size: 36px;
+  font-weight: 500;
+  color: #666;
+}

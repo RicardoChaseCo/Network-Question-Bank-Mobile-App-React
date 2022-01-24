@@ -1,0 +1,50 @@
+.choose {
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 71px 46px 0;
+}
+.choose .top_btns {
+  margin-bottom: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  line-height: 120px;
+}
+.choose .top_btns .top_btn1 {
+  width: 496px;
+  height: 120px;
+  background: #2e57ff;
+}
+.choose .top_btns .top_btn2 {
+  width: 496px;
+  height: 120px;
+  background: #ffc837;
+}
+.choose .mytitle {
+  height: 36px;
+  font-size: 38px;
+  color: #666666;
+  line-height: 30px;
+  margin-bottom: 51px;
+}
+.choose .tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 67px;
+}
+.choose .tabs li {
+  width: 320px;
+  height: 80px;
+  margin-bottom: 33px;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+  background: #ccc;
+}
+.choose .tabs li.active {
+  background: #2e57ff;
+}
