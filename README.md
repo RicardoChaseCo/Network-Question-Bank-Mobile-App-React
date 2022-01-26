@@ -12,11 +12,11 @@ After creating the project with # NPX create react app # yuantiku # install the 
 
 2. Fastlick solution
 
-In public / index HTML ， insert in the ， head ， tag:
+In public/index HTML, insert in the head tag:
 
 3. Call
 
-In app JS:
+In App.JS:
 
 ## Demo
 
